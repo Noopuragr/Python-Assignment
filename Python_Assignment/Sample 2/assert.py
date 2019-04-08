@@ -1,0 +1,23 @@
+import que1
+assert(que1.max_num_in_list(que1.Lists1)==50)
+assert(que1.second_largest_num(que1.Lists1)==40)
+assert que1.num1==[10,20,30,40,50] and que1.num2==[11,15,19]
+assert(que1.Checklists())
+assert(que1.Union(que1.l1,que1.l2)==[10,11,20,21,30,31])
+assert(que1.Intersection(que1.l1,que1.l2)==[30])
+assert que1.value1==[10,11,20,21,30,31] and que1.value2==[30]
+assert(que1.Tuples(que1.l_range,que1.u_range)==[(1,1),(2,4),(3,9),(4,16),(5,25)])
+assert(que1.Duplicate(que1.List2)==[10,20,30])
+assert(que1.LongWrod(que1.Length)=='manipal')
+assert(que1.add_kv(que1.key,que1.value)=={1:'a'})
+assert(que1.Concate(que1.d1,que1.d2)=={1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'})
+assert(que1.CheckKey(que1.d1))
+assert(que1.genDict()=={1: 1, 2: 4, 3: 9, 4: 16, 5: 25})
+assert(que1.SumItems(que1.dict3)==702)
+assert(que1.MulItems(que1.dict3)==9929790)
+assert(que1.delKey(que1.new_dict)=={'a': 123, 'c': 345})
+assert(que1.is_empty(que1.dict_1))
+assert(que1.make_dict(que1.key_value_list)=={'A': 1, 'B': 2, 'C': 3})
+assert(que1.encrypt(que1.phrase,que1.cipher_dict)=='dyf')
+assert(que1.make_cipher_dict(que1.char1)==6)
+assert(que1.genGrades()=={'Ash': {'S1': 'A+', 'S2': 'A', 'S3': 'B', 'S4': 'C', 'S5': 'D'}, 'Beth': {'S1': 'F', 'S2': 'A', 'S3': 'A+', 'S4': 'B', 'S5': 'C'}, 'Cal': {'S1': 'A+', 'S2': 'A', 'S3': 'B', 'S4': 'D', 'S5': 'A+'}})
